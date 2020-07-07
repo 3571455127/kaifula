@@ -1,0 +1,15 @@
+导航栏：HOME / ABOUT US / PRODUCT / APPLICATION / FAQ / BLOG / CONTACT
+
+ABOUT US ： Company Profile  /  Factory & Facility  /  Why Choose Us  /  Exhibitions
+PRODUCT ： Felt Roller  /  Endless Belt  /  Timing Belt with Felt  /  Felt Pad  /  Spacer Sleeve  /  Cushion Pad  /  Kevlar Gloves  /  Other Accessories
+APPLICATION ： Aluminium Extrusion
+BLOG ： Company News   /  Industry Information
+
+模板号712300
+公司介绍 ，样式1-Company Profile ；图册列表，样式1-Factory & Facility
+FAQ，样式2
+文章列表，样式2  
+文章详情，样式9
+联系我们，样式8
+
+ABOUT US / PRODUCT / APPLICATION / FAQ
