@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <!-- wap -->
+    <meta name="wap-font-scale" content="no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=yes" />
+    <meta name="Robots" content="all">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>product-show</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/jquery.treemenu.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- js -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">Welcome to Factory & Industrial buisness</div>
+                    <div class="right col-lg-6 col-md-6 col-sm-6">
+                        <i class="fa fa-clock-o"></i>Monday - friday : 8:00 AM to 7:00 Pm
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="area">
+            <div class="container">
+                <div class="row">
+                    <div class="logo col-lg-4 col-md-4 col-sm-4">
+                        <a href="" title=""><img
+                                src="http://themes.digoodcms.com/logo/svg?main_color=fdc716&sub_color=061538&text_color=555"
+                                alt=""></a>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-8 clearfix">
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="iocn-holder">
+                                <span class="fa fa-skype"></span>
+                            </div>
+                            <div class="text-holder">
+                                <h6>Skype</h6>
+                                <p>1-8000-978-6543</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="iocn-holder">
+                                <span class="fa fa-phone" aria-hidden="true"></span>
+                            </div>
+                            <div class="text-holder">
+                                <h6>Call Us On</h6>
+                                <p>1-8000-978-6543</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="iocn-holder">
+                                <span class="fa fa-envelope-o fa-fw" aria-hidden="true"></span>
+                            </div>
+                            <div class="text-holder">
+                                <h6>Mail Us @</h6>
+                                <a href="Supportuss@gmail.com" class="emails">
+                                    <p>Supportuss@gmail.com</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="navs theme-menu-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="navsbg clearfix">
+                        <div class="pull-left">
+                            <ul class="level">
+                                <li><a href="index.html">home</a></li>
+                                <li><a href="about.html">about us</a></li>
+                                <li>
+                                    <a href="product.html" title="{$r.catname}">product</a>
+
+                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                    <ul class="secondary">
+
+                                        <li>
+                                            <a href="{$rs.url}" title="{$rs.catname}">product11</a>
+
+                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                            <ul class="third">
+
+                                                <li><a href="{$rss.url}" title="{$rss.catname}">product111</a>
+                                                </li>
+
+                                            </ul>
+
+                                        </li>
+                                        <li>
+                                            <a href="">product12</a>
+                                        </li>
+
+                                    </ul>
+
+                                </li>
+                                <li><a href="services.html">Application</a></li>
+                                <li><a href="faq.html">faq</a></li>
+                                <li><a href="news.html">BLOG </a></li>
+                                <li><a href="contact.html">contact</a></li>
+                            </ul>
+
+                        </div>
+
+                        <div class="right-column">
+                            <div class="right-area">
+                                <div class="nav_side_content">
+                                    <div class="search_option">
+                                        <button class="search tran3s dropdown-toggle color1_bg" id="searchDropdown"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+                                                class="fa fa-search" aria-hidden="true"></i></button>
+                                        <form action="" class="dropdown-menu" aria-labelledby="searchDropdown">
+                                            <input type="text" placeholder="Search..." required="">
+                                            <button type="submit"><i class="fa fa-search"
+                                                    aria-hidden="true"></i></button>
+                                        </form>
+                                    </div>
+
+                                </div>
+                                <div class="link_btn float_right">
+                                    <a href="#" class="thm-btn bg-clr1">GET A Quote</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 路径 -->
+    <div class="banner_link hidden-xs hidden-sm">
+        <div class="container">
+            <div class="b_crum_link_inner">
+                <a href="#">Home</a>
+                <a href="#">Product</a>
+                <a href="#">RFID CARDS</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- product-show -->
+    <div class="product-show">
+        <div class="container">
+            <div class="row">
+                <div class="content">
+
+                    <div class="description clearfix">
+                        <div class="col-lg-5 col-md-5 col-sm-5">
+                            <div class="swiper-container gallery-top">
+                                <div class="swiper-wrapper">
+                                    <!-- start -->
+                                    <div class="swiper-slide"><img src="images/product-show.png" alt=""></div>
+                                    <!-- end -->
+
+                                    <div class="swiper-slide"><img src="images/product-show.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/product-show.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/product-show.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/product-show.png" alt=""></div>
+                                </div>
+                                <div class="swiper-button-next swiper-button-white"></div>
+                                <div class="swiper-button-prev swiper-button-white"></div>
+                            </div>
+                            <div class="swiper-container gallery-thumbs">
+                                <div class="swiper-wrapper">
+                                    <!-- start -->
+                                    <div class="swiper-slide"><img src="images/product-show1.png" alt=""></div>
+                                    <!-- start -->
+
+                                    <div class="swiper-slide"><img src="images/product-show1.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/product-show1.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/product-show1.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/product-show1.png" alt=""></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="txt col-lg-7 col-md-7 col-sm-7">
+                            <h5>Where does it come from? this is our product</h5>
+                            <div class="types">Model: HB-ADC688</div>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form, by injected humour, or randomised words which don't
+                                look even slightly believable.</p>
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p> When an unknown printer took a galley of type and scrambled it to make a type
+                                specimen
+                                book.</p>
+                            <p> The generated Lorem Ipsum is therefore always free from repetition.</p>
+                            <div class="buttons">
+                                <a href="#" class="btn btn-primary">Contact Us</a>
+                                <div type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                                    Quick Inquiry
+                                </div>
+
+                                <!-- 弹窗表单 -->
+                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+                                    aria-labelledby="myModalLabel">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                <h4 class="modal-title" id="myModalLabel">Quick Inquiry</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form class="clearfix" method="post"
+                                                    action="index.php?g=Home&amp;a=message"
+                                                    onsubmit="return beforeSubmit2(this);">
+                                                    <div class="modal-box">
+                                                        <p>Name: </p>
+                                                        <input placeholder="Name" type="text" name="name">
+                                                    </div>
+                                                    <div class="modal-box">
+                                                        <p>E-mail: </p>
+                                                        <input placeholder="Email" type="text" name="email">
+                                                    </div>
+                                                    <div class="modal-box">
+                                                        <p>Phone Number:</p>
+                                                        <input placeholder="Phone" type="text" name="phone">
+                                                    </div>
+                                                    <div class="modal-box">
+                                                        <p>Consulting Information:</p>
+                                                        <textarea rows="3"
+                                                            placeholder="Please enter your consulting information."
+                                                            name="message"></textarea>
+                                                    </div>
+                                                    <input type="submit" value="Send Inquiry" class="footer-sub">
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- 内容 -->
+                    <div class="detail">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#details" aria-controls="home" role="tab"
+                                    data-toggle="tab">Details</a></li>
+                            <li role="presentation"><a href="#parameter" aria-controls="profile" role="tab"
+                                    data-toggle="tab">Parameter</a></li>
+                            <li role="presentation"><a href="#video" aria-controls="messages" role="tab"
+                                    data-toggle="tab">Video</a></li>
+                            <li role="presentation"><a href="#feature" aria-controls="settings" role="tab"
+                                    data-toggle="tab">Feature</a></li>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="details">
+
+                                <table border="0" class="table-condensed table-bordered" style="width:100%;">
+                                    <colgroup span="2">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <td colspan="1" rowspan="2" scope="col" style="text-align: center;">
+                                                Continent</td>
+                                            <td colspan="1" rowspan="2" scope="col" style="text-align: center;">Country
+                                            </td>
+                                            <td colspan="2" scope="colgroup" style="text-align: center;">Adult person
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="col" style="text-align: center;">Women</td>
+                                            <td scope="col" style="text-align: center;">Men</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="3" scope="rowgroup" style="text-align: center;">North America
+                                            </td>
+                                            <td scope="row" style="text-align: center;">USA</td>
+                                            <td style="text-align: center;">12</td>
+                                            <td style="text-align: center;">13</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row" style="text-align: center;">Canada</td>
+                                            <td style="text-align: center;">20</td>
+                                            <td style="text-align: center;">34</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row" style="text-align: center;">Mexico</td>
+                                            <td style="text-align: center;">34</td>
+                                            <td style="text-align: center;">34</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2" scope="rowgroup" style="text-align: center;">Asia</td>
+                                            <td scope="row" style="text-align: center;">india</td>
+                                            <td scope="row" style="text-align: center;">23</td>
+                                            <td style="text-align: center;">32</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">Malaysia</td>
+                                            <td style="text-align: center;">34</td>
+                                            <td style="text-align: center;">43</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                    deserunt mollit anim id est laborum."</p>
+                                <div class="box clearfix">
+                                    <div class="col-lg-8 col-md-8 col-sm-8 padding-left">
+
+                                        <h1>
+                                            h1. Bootstrap heading <small>Secondary text</small>
+                                        </h1>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        </p>
+                                        <p>
+                                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        </p>
+
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 padding-right"><img
+                                            src="images/product-show2.png" alt="">
+                                    </div>
+                                </div>
+                                <h2> h2. Bootstrap heading Secondary text</h2>
+                                <p>
+                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                    deserunt mollit anim id est laborum."
+                                </p>
+                                <h3> h3. Bootstrap heading Secondary text</h3>
+                                <p>
+                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                    deserunt mollit anim id est laborum."
+                                </p>
+                                <table border="0" class="table-condensed table-bordered" style="width:100%;">
+                                    <colgroup span="2">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <td colspan="1" rowspan="2" scope="col" style="text-align: center;">
+                                                Continent</td>
+                                            <td colspan="1" rowspan="2" scope="col" style="text-align: center;">Country
+                                            </td>
+                                            <td colspan="2" scope="colgroup" style="text-align: center;">Adult person
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="col" style="text-align: center;">Women</td>
+                                            <td scope="col" style="text-align: center;">Men</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="3" scope="rowgroup" style="text-align: center;">North America
+                                            </td>
+                                            <td scope="row" style="text-align: center;">USA</td>
+                                            <td style="text-align: center;">12</td>
+                                            <td style="text-align: center;">13</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row" style="text-align: center;">Canada</td>
+                                            <td style="text-align: center;">20</td>
+                                            <td style="text-align: center;">34</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row" style="text-align: center;">Mexico</td>
+                                            <td style="text-align: center;">34</td>
+                                            <td style="text-align: center;">34</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2" scope="rowgroup" style="text-align: center;">Asia</td>
+                                            <td scope="row" style="text-align: center;">india</td>
+                                            <td scope="row" style="text-align: center;">23</td>
+                                            <td style="text-align: center;">32</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">Malaysia</td>
+                                            <td style="text-align: center;">34</td>
+                                            <td style="text-align: center;">43</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+
+                            <div role="tabpanel" class="tab-pane" id="parameter">
+
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                    deserunt mollit anim id est laborum."</p>
+                                <table border="0" class="table-condensed table-bordered" style="width:100%;">
+                                    <colgroup span="2">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <td colspan="1" rowspan="2" scope="col" style="text-align: center;">
+                                                Continent</td>
+                                            <td colspan="1" rowspan="2" scope="col" style="text-align: center;">Country
+                                            </td>
+                                            <td colspan="2" scope="colgroup" style="text-align: center;">Adult person
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="col" style="text-align: center;">Women</td>
+                                            <td scope="col" style="text-align: center;">Men</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="3" scope="rowgroup" style="text-align: center;">North America
+                                            </td>
+                                            <td scope="row" style="text-align: center;">USA</td>
+                                            <td style="text-align: center;">12</td>
+                                            <td style="text-align: center;">13</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row" style="text-align: center;">Canada</td>
+                                            <td style="text-align: center;">20</td>
+                                            <td style="text-align: center;">34</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row" style="text-align: center;">Mexico</td>
+                                            <td style="text-align: center;">34</td>
+                                            <td style="text-align: center;">34</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2" scope="rowgroup" style="text-align: center;">Asia</td>
+                                            <td scope="row" style="text-align: center;">india</td>
+                                            <td scope="row" style="text-align: center;">23</td>
+                                            <td style="text-align: center;">32</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">Malaysia</td>
+                                            <td style="text-align: center;">34</td>
+                                            <td style="text-align: center;">43</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+
+                            <div role="tabpanel" class="tab-pane" id="video">
+
+                                <iframe width="100%" height="500" src="https://www.youtube.com/embed/Bey4XXJAqS8"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="feature">
+
+                                <div class="clearfix">
+
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <div class="col-lg-6 col-md-6 col-sm-6"><img src="images/product-show3.png"
+                                                alt=""></div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <h6>Donec id elit non mi porta gravida at</h6>
+                                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+                                                ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+                                                justo s</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <div class="col-lg-6 col-md-6 col-sm-6"><img src="images/product-show3.png"
+                                                alt=""></div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <h6>Fusce dapibus, tellus ac cursus commodo</h6>
+                                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+                                                ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+                                                justo s</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <div class="col-lg-6 col-md-6 col-sm-6"><img src="images/product-show3.png"
+                                                alt=""></div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <h6>Donec id elit non mi porta gravida at</h6>
+                                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+                                                ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+                                                justo s</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <div class="col-lg-6 col-md-6 col-sm-6"><img src="images/product-show3.png"
+                                                alt=""></div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <h6>Fusce dapibus, tellus ac cursus commodo</h6>
+                                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+                                                ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+                                                justo s</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <div class="col-lg-6 col-md-6 col-sm-6"><img src="images/product-show3.png"
+                                                alt=""></div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <h6>Donec id elit non mi porta gravida at</h6>
+                                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+                                                ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+                                                justo s</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <div class="col-lg-6 col-md-6 col-sm-6"><img src="images/product-show3.png"
+                                                alt=""></div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <h6>Fusce dapibus, tellus ac cursus commodo</h6>
+                                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+                                                ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+                                                justo s</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <div class="col-lg-6 col-md-6 col-sm-6"><img src="images/product-show3.png"
+                                                alt=""></div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <h6>Donec id elit non mi porta gravida at</h6>
+                                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+                                                ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+                                                justo s</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <div class="col-lg-6 col-md-6 col-sm-6"><img src="images/product-show3.png"
+                                                alt=""></div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <h6>Fusce dapibus, tellus ac cursus commodo</h6>
+                                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+                                                ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+                                                justo s</p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- 推荐 -->
+                    <div class="related">
+                        <h3>Related Products</h3>
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <a href="#" title="">
+                                        <img src="images/product-show4.png" alt="">
+                                        <div class="titles">Donec id elit non mi porta gravida at eget metus.</div>
+                                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit
+                                            non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies
+                                            vehicula ut id elit.</p>
+                                    </a>
+                                    <div class="buttons">
+                                        <a href="" title="" class="btn btn-primary">Contact Us</a>
+                                        <div type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#myModal">
+                                            Quick Inquiry
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" title="">
+                                        <img src="images/product-show4.png" alt="">
+                                        <div class="titles">Donec id elit non mi porta gravida at eget metus.</div>
+                                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit
+                                            non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies
+                                            vehicula ut id elit.</p>
+                                    </a>
+                                    <div class="buttons">
+                                        <a href="" title="" class="btn btn-primary">Contact Us</a>
+                                        <div type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#myModal">
+                                            Quick Inquiry
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" title="">
+                                        <img src="images/product-show4.png" alt="">
+                                        <div class="titles">Donec id elit non mi porta gravida at eget metus.</div>
+                                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit
+                                            non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies
+                                            vehicula ut id elit.</p>
+                                    </a>
+                                    <div class="buttons">
+                                        <a href="" title="" class="btn btn-primary">Contact Us</a>
+                                        <div type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#myModal">
+                                            Quick Inquiry
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- footer -->
+    <footer>
+        <div class="scroll-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+        <div class="container">
+            <div class="row">
+                <div class="content clearfix">
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <a class="footer-logo" href="" title=""><img
+                                src="http://themes.digoodcms.com/logo/svg?main_color=fdc716&amp;sub_color=fff&amp;text_color=fff"
+                                alt="logo" width="220"></a>
+                        <p>Over 24 years experience and of the international user standards and technological works
+                            changes and industrial systems, we dedicated to provide the best and economical.</p>
+                        <div class="share">
+                            <ul class="list-inline footer-social">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <h5>SERVICES</h5>
+                        <ul class="footer-list">
+                            <li><a href="#">Chemical Research</a></li>
+                            <li><a href="#">Material Science</a></li>
+                            <li><a href="#">Petroleum and Gas</a></li>
+                            <li><a href="#">Mechanical Engineering</a></li>
+                            <li><a href="#">Agriculture Processing</a></li>
+                            <li><a href="#">Power and Energy</a></li>
+                        </ul>
+                    </div>
+                    <div class="pec-news col-lg-3 col-md-3 col-sm-3">
+                        <h5>RECENT NEWS</h5>
+                        <a class="clearfix" title="" href="">
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div class="box-img"><img src="images/pecent-news1.jpg" alt=""></div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                                <h6>Design and Advanced Materials Innovation</h6>
+                                <i class="fa fa-calendar"></i>
+                                <span> 15 Mar, 2017</span>
+                            </div>
+                        </a>
+                        <a class="clearfix" title="" href="">
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div class="box-img"><img src="images/pecent-news2.jpg" alt=""></div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                                <h6>Materials for the Gas &amp; Petroleum</h6>
+                                <i class="fa fa-calendar"></i>
+                                <span> 21 Apr, 2017</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="footer-form col-lg-3 col-md-3 col-sm-3">
+                        <h5>SUBSCRIBE US</h5>
+                        <p>Subscribe to our newsletter!</p>
+                        <form action="#">
+                            <input type="email" placeholder="Email address....">
+                            <button type="submit"><i class="fa fa-paper-plane"></i></button>
+                        </form>
+                        <p class="last-p">We dont’t do spam and Your mail id very confidential.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<!-- js -->
+<script src="js/swiper.min.js"></script>
+<script src="js/jquery.treemenu.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.countup.min.js"></script>
+
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/main.js"></script>
+
+
+</html>
